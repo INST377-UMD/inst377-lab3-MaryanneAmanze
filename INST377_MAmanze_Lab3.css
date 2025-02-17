@@ -1,0 +1,66 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bar {
+    background-color: hotpink;
+    text-align: center;
+    margin: 2;
+    clear: both;
+    padding: 0;
+    
+}
+
+#main-nav{
+    background-color: hotpink;
+    text-align: left;
+    padding: 3px;  
+}
+
+#main-nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color:pink;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.content-area{
+    width: 70%;
+    float: left;
+    margin: 0;
+}
+
+.content-box{
+    background-color:pink ;
+    color: black;
+    border: 2px solid hotpink;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+#name:focus {
+    width: 300px;
+}
+
+#rules{
+    background-color: antiquewhite;
+    float: right;
+    width: 25%;
+    border: 2px solid hotpink;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+#rules:hover{
+    background-color: pink;
+}
